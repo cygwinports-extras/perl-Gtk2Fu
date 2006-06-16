@@ -1,0 +1,56 @@
+perl-Gtk2Fu
+-------------------------------------------
+gtk2-fu is a layer on top of perl gtk2, that brings power, 
+simplicity and speed of development.
+
+Runtime requirements:
+  cygwin-1.5.19-4
+  perl-5.8.7-5
+  perl-Glib-1.120-1
+  perl-Gtk2-1.120-1
+
+Build requirements:
+  cygwin-1.5.19-4
+  cygport-0.1.92-1
+  perl-5.8.7-5
+  perl-Module-Build-0.26-1
+
+Canonical homepage:
+  http://libconf.net/gtk2-fu/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-Gtk2Fu-0.10-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-Gtk2Fu-0.10-1.cygport all
+
+This will create:
+  /usr/src/perl-Gtk2Fu-0.10-1-src.tar.bz2
+  /usr/src/perl-Gtk2Fu-0.10-1.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/perl5/vendor_perl/5.8/Gtk2Fu.pm
+  /usr/share/doc/Cygwin/perl-Gtk2Fu-0.10.README
+  /usr/share/doc/perl-Gtk2Fu-0.10/Changes
+  /usr/share/doc/perl-Gtk2Fu-0.10/README
+  /usr/share/man/man3/Gtk2Fu.3pm.gz
+
+------------------
+
+Port Notes:
+
+----- version 0.10-1 -----
+Version bump; requires perl-Module-Build to build from source.
+
+----- version 0.05-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
