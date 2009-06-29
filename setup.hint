@@ -1,5 +1,5 @@
 category: Perl
-requires: cygwin perl perl-Glib perl-Gtk2
+requires: perl perl-Glib perl-Gtk2
 sdesc: "Simple perl-Gtk2 development module"
 ldesc: "gtk2-fu is a layer on top of perl gtk2, that brings power, 
 simplicity and speed of development"
